@@ -195,8 +195,7 @@ footer p{
 
   .logo{
     align-content: center;
-    width: 50%;
-    margin-left: 30%;
+    width: 30%;
     margin-bottom: 5%;
     
 }
@@ -216,10 +215,12 @@ footer p{
     margin-left: 10%
   }
   
-  .section-A{
-    width:1000px
-  }
-  
+    .features{
+        width: 65%
+    }
+    
+    }
+    
   .section-B{
     justify-content:   space-evenly;
     width: 900px
@@ -244,27 +245,34 @@ footer p{
 
  nav{
   text-align: center;
+  flex-direction: column;
  
+}
 
-  }
-  
 .header nav a {
   width: 100%;
+  display: block;
   text-align: center;
   padding: 20px 0;
-  font-size: 20px;
+  font-size: 2rem;
   border-bottom: 1px solid #979797;
 }
+.logo{
+
+  margin-right: 25%;
+}
+
   
   .section-A{
   flex-direction: column;
   
+
  
   }
   
 .section-B{
-    flex-direction: column;
-   align-items:flex-start; 
+flex-direction: column;
+align-items:flex-start; 
  
   }
 }
